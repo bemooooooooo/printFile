@@ -1,5 +1,4 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11960697&assignment_repo_type=AssignmentRepo)
-# Лабораторная работа 1
+# Утилита для потокового вывода содержимого файла в CLI 
 
 ## Задача
 
@@ -31,17 +30,3 @@ _**PrintFile.exe [OPTION] filename**_
 *PrintFile.exe -d '\t' filename*
 
 *PrintFile.exe  filename -t -l 10*
-
-## Рекомендации
-
-* Стоит подумать о том, что размер файла может быть очень большим и значимо превышать размер оперативной памяти
-
-* Стоит подумать каким образом разбить программу на логичные функции
-
-* Не забывайте про CodeStyle
-
-## Дополнительная информация
-
-Для реализации утилиты потребуется воспользоваться стандартной библиотекой вводы\вывода ([описание](https://en.cppreference.com/w/cpp/io/basic_ifstream)). [Пример использования](https://cplusplus.com/doc/tutorial/files/)
-
-Пример того, как можно организовать  парсинг аргументов командной строки, можно посмотреть [здесь](http://www.cplusplus.com/articles/DEN36Up4/).
